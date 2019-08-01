@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include "Base64.h"
+#include "Base64Decode.h"
+
+#define Length 256
+int _tmain(int argc, _TCHAR* argv[])
+{
+	char* buf = new char[Length];
+	char* buf_Base = new char[Length];
+	memset(buf, 0, Length);
+	memset(buf_Base, 0, Length);
+}
